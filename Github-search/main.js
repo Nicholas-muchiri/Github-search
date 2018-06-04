@@ -625,7 +625,7 @@ module.exports = ".form-control{\n    border-radius: 0.5rem;\n    margin-right: 
 /*! no static exports found */
 /***/ (function(module, exports) {
 
-module.exports = "<form (ngSubmit)=\"lookFor(searchForm)\" #searchForm=\"ngForm\">\n  <div class=\"form-group\">\n    <input type=\"text\" class=\"form-control\" name=\"find\" placeholder=\"Enter username\" [(ngModel)]=\"searchInfo.find\" #find='ngModel'>\n    <button type=\"submit\" class=\"btn\"> Search</button>\n  </div>\n</form>\n"
+module.exports = "<form (ngSubmit)=\"lookFor(searchForm)\" #searchForm=\"ngForm\">\n  <div class=\"form-group\">\n    <input type=\"text\" class=\"form-control\" name=\"find\" placeholder=\"Enter username\" [(ngModel)]=\"searchTerm\" #find='ngModel'>\n    <button type=\"submit\" class=\"btn\"> Search</button>\n  </div>\n</form>\n"
 
 /***/ }),
 
@@ -816,7 +816,7 @@ __webpack_require__.r(__webpack_exports__);
 // The list of which env maps to which file can be found in `.angular-cli.json`.
 var environment = {
     production: false,
-    myApi: " 1a7faece6a8412e05e9c1f28e1e9c326d8dc6af1"
+    myApi: "1a7faece6a8412e05e9c1f28e1e9c326d8dc6af1"
 };
 
 
